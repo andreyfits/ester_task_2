@@ -1,0 +1,60 @@
+#chart {
+    width: 70%;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.groupBtns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 40px;
+    overflow: hidden;
+    padding: 0;
+    margin: 30px 3px;
+}
+
+.btns {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.btn {
+    background-color: transparent;
+    height: 100%;
+    min-width: 80px;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+    outline: none;
+    border: 2px solid #efefef;
+    cursor: pointer;
+    font-weight: 300;
+    color: #5fb9e5;
+}
+
+.btn:hover {
+    background-color: #efefef;
+}
+
+.btn.active {
+    background-color: #efefef;
+}
+
+.period30Days {
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.period30Days, .period60Days, .period180days, .period1Year, .period2Year {
+    border-right: none;
+}
+
+.periodAllTime {
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
